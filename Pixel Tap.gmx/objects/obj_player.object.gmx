@@ -54,7 +54,7 @@ grav = 3;
             <string>tap = mouse_check_button_pressed(mb_left);
 
 if(tap &amp;&amp; vspd &gt; v_max){
-    vspd = -1;
+    vspd = 0;
     vspd -= jump;
 } else {
     vspd += grav;

@@ -25,10 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>jump = 36;
+            <string>/*jump = 36;
 vspd = 0;
 v_max = -36
-grav = 3;
+grav = 5;*/
 </string>
           </argument>
         </arguments>
@@ -51,7 +51,7 @@ grav = 3;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>tap = mouse_check_button_pressed(mb_left);
+            <string>/*tap = mouse_check_button_pressed(mb_left);
 
 if(tap &amp;&amp; vspd &gt; v_max){
     vspd = 0;
@@ -63,7 +63,7 @@ if(tap &amp;&amp; vspd &gt; v_max){
 //y += vspd;
 for (var i = 0; i &lt; abs(vspd); i++){
     y+= sign(vspd);
-}
+}*/
 </string>
           </argument>
         </arguments>

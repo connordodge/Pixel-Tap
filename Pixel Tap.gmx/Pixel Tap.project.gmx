@@ -13,6 +13,9 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\move_down.gml</script>
+  </scripts>
   <objects name="objects">
     <objects name="Player">
       <object>objects\obj_player</object>

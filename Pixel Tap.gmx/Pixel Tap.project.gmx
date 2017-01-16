@@ -9,12 +9,14 @@
     <sprites name="Stubs">
       <sprite>sprites\spr_player</sprite>
       <sprite>sprites\spr_obstacle</sprite>
+      <sprite>sprites\spr_border</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\move_down.gml</script>
+    <script>scripts\patrol.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Player">
@@ -22,6 +24,20 @@
     </objects>
     <objects name="Obstacles">
       <object>objects\obj_obs_square</object>
+    </objects>
+    <objects name="Parents">
+      <objects name="Non-players">
+        <object>objects\Nonplayer</object>
+        <objects name="Patrollers">
+          <object>objects\Patroller</object>
+        </objects>
+      </objects>
+      <objects name="Solid">
+        <object>objects\Solid</object>
+      </objects>
+    </objects>
+    <objects name="Environment">
+      <object>objects\Border</object>
     </objects>
   </objects>
   <rooms name="rooms">
